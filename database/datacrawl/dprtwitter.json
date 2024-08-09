@@ -1,0 +1,2459 @@
+{
+  "tweets": [
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1818787235514491088",
+      "created_at": "Fri Aug 02 03:04:39 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1158627449321582594",
+            "indices": [
+              0,
+              13
+            ],
+            "name": "Bie Can Bie",
+            "screen_name": "Abie06666327"
+          },
+          {
+            "id_str": "1614470115210457090",
+            "indices": [
+              14,
+              24
+            ],
+            "name": "TRANSporter\ud83d\ude02",
+            "screen_name": "G4b0nG0ku"
+          },
+          {
+            "id_str": "211415705",
+            "indices": [
+              204,
+              211
+            ],
+            "name": "DPR RI",
+            "screen_name": "DPR_RI"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "@Abie06666327 @G4b0nG0ku wakil rakyat yg membiarkan korupsi meraja lela bukan Jokowi.\nwakil rakyat tinggal buat UUD supaya korupsi tidak meraja lela, seperti UUD perampasan aset yg tinggal di sahkan sama @DPR_RI .",
+      "id_str": "1819207658966319587",
+      "in_reply_to_screen_name": "Abie06666327",
+      "in_reply_to_status_id_str": "1818813164051743124",
+      "in_reply_to_user_id_str": "1158627449321582594",
+      "is_quote_status": false,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/baharuddin133/status/1819207658966319587",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Mon Mar 03 08:00:56 +0000 2014",
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 2329,
+        "followers_count": 72,
+        "friends_count": 420,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 2,
+        "location": "jambi",
+        "media_count": 65,
+        "name": "Baharuddin",
+        "normal_followers_count": 72,
+        "possibly_sensitive": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1388532896504455171/3W0fKAoq_normal.jpg",
+        "screen_name": "baharuddin133",
+        "statuses_count": 1179,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "2370062269",
+      "user_location": "jambi",
+      "views_count": 0
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1819012776377172445",
+      "created_at": "Fri Aug 02 03:00:26 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1276794185425670144",
+            "indices": [
+              0,
+              12
+            ],
+            "name": "August",
+            "screen_name": "AnakLolina2"
+          },
+          {
+            "id_str": "211415705",
+            "indices": [
+              13,
+              20
+            ],
+            "name": "DPR RI",
+            "screen_name": "DPR_RI"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "@AnakLolina2 @DPR_RI \ud83d\udc4d",
+      "id_str": "1819206596700131812",
+      "in_reply_to_screen_name": "AnakLolina2",
+      "in_reply_to_status_id_str": "1819012776377172445",
+      "in_reply_to_user_id_str": "1276794185425670144",
+      "is_quote_status": false,
+      "lang": "qme",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/NokenFaisal/status/1819206596700131812",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Tue Aug 08 12:08:12 +0000 2023",
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 239,
+        "followers_count": 3,
+        "friends_count": 3,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "",
+        "media_count": 6,
+        "name": "KasihSayang\ud83e\udd17",
+        "normal_followers_count": 3,
+        "possibly_sensitive": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1817076045855752194/5CY0V0Ci_normal.jpg",
+        "screen_name": "NokenFaisal",
+        "statuses_count": 851,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1688884599794106368",
+      "user_location": "",
+      "views_count": 0
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1819205922012762219",
+      "created_at": "Fri Aug 02 02:57:45 +0000 2024",
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              231,
+              254
+            ],
+            "text": "BentukPansusSkandalIKN"
+          },
+          {
+            "indices": [
+              256,
+              279
+            ],
+            "text": "BentukPansusSkandalIKN"
+          }
+        ],
+        "media": [
+          {
+            "display_url": "pic.x.com/bpa1vsennw",
+            "expanded_url": "https://twitter.com/SOlidaritasR2l2/status/1819205922012762219/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 67,
+                    "w": 67,
+                    "x": 257,
+                    "y": 247
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 62,
+                    "w": 62,
+                    "x": 240,
+                    "y": 231
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 67,
+                    "w": 67,
+                    "x": 257,
+                    "y": 247
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 136,
+                    "y": 131
+                  }
+                ]
+              }
+            },
+            "id_str": "1819205919601053696",
+            "indices": [
+              280,
+              303
+            ],
+            "media_key": "3_1819205919601053696",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819205919601053696"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8eJTMb0AAQnsZ.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 717,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 1123,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 640,
+                  "x": 96,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1280,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 1280,
+                "resize": "fit",
+                "w": 1280
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/bPA1vseNNW"
+          }
+        ],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/bPA1vseNNW",
+            "expanded_url": "https://twitter.com/SOlidaritasR2l2/status/1819205922012762219/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 67,
+                    "w": 67,
+                    "x": 257,
+                    "y": 247
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 62,
+                    "w": 62,
+                    "x": 240,
+                    "y": 231
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 67,
+                    "w": 67,
+                    "x": 257,
+                    "y": 247
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 136,
+                    "y": 131
+                  }
+                ]
+              }
+            },
+            "id_str": "1819205919601053696",
+            "indices": [
+              280,
+              303
+            ],
+            "media_key": "3_1819205919601053696",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819205919601053696"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8eJTMb0AAQnsZ.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 717,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 1123,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 640,
+                  "x": 96,
+                  "y": 0
+                },
+                {
+                  "h": 1280,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1280,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 1280,
+                "resize": "fit",
+                "w": 1280
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/bPA1vseNNW"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "Beranikah DPR RI yg dimotori PDIP  membuka borok IKN yang 1000% murni dibiayai dananya berasal dari APBN ? Beranikah PDIP parte wong cilik bela rakyat yg diperas keringat dan dihisap darahnya utk biayai IKN yg penuh skandal busuk?\n#BentukPansusSkandalIKN \n#BentukPansusSkandalIKN https://t.co/bPA1vseNNW",
+      "id_str": "1819205922012762219",
+      "is_quote_status": false,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/SOlidaritasR2l2/status/1819205922012762219",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Wed Mar 01 15:33:57 +0000 2023",
+        "default_profile_image": false,
+        "description": "Solidaritas Umat Islam Bersatu akan mampu selamatkan Indonesia dari kehancuran.\n#GakFollowPorno",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 449,
+        "followers_count": 1457,
+        "friends_count": 1991,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "",
+        "media_count": 135,
+        "name": "\ud83c\uddf2\ud83c\udde8\ud83d\udcafSolidaritas Islam\ud83c\uddf2\ud83c\udde8\ud83d\udd25,",
+        "normal_followers_count": 1457,
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1630954310577319942/1677760033",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1631269932204949505/VdiRspsE_normal.jpg",
+        "screen_name": "SOlidaritasR2l2",
+        "statuses_count": 665,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1630954310577319942",
+      "user_location": "",
+      "views_count": 8
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1819200634148790442",
+      "created_at": "Fri Aug 02 02:36:44 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1869673304",
+            "indices": [
+              94,
+              107
+            ],
+            "name": "OJK Indonesia",
+            "screen_name": "ojkindonesia"
+          },
+          {
+            "id_str": "211415705",
+            "indices": [
+              205,
+              212
+            ],
+            "name": "DPR RI",
+            "screen_name": "DPR_RI"
+          },
+          {
+            "id_str": "1410866743271051267",
+            "indices": [
+              228,
+              244
+            ],
+            "name": "Puan Maharani",
+            "screen_name": "puanmaharani_ri"
+          },
+          {
+            "id_str": "40580714",
+            "indices": [
+              245,
+              253
+            ],
+            "name": "Prabowo Subianto",
+            "screen_name": "prabowo"
+          },
+          {
+            "id_str": "366987179",
+            "indices": [
+              254,
+              261
+            ],
+            "name": "Joko Widodo",
+            "screen_name": "jokowi"
+          },
+          {
+            "id_str": "125923625",
+            "indices": [
+              262,
+              277
+            ],
+            "name": "Ombudsman RI",
+            "screen_name": "OmbudsmanRI137"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "Mendesak Sesegera Mungkin Diwujudkan BADA SUPERVISI OJK sesuai UU PPSK Pasal 38A sd 38C. Agar @ojkindonesia ada yang mengawasi, selama ini tidak optimal bekerja sesuai Tusi sebagai Pengawas dan Regulator. @DPR_RI komisi 3,6,11. @puanmaharani_ri @prabowo @jokowi @OmbudsmanRI137",
+      "id_str": "1819200634148790442",
+      "is_quote_status": true,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "place": {
+        "country": "Japan",
+        "country_code": "JP",
+        "full_name": "Higashiyamato-shi, Tokyo",
+        "id": "98accfc3c0a403d3",
+        "name": "Higashiyamato-shi",
+        "place_type": "city",
+        "url": "https://api.twitter.com/1.1/geo/id/98accfc3c0a403d3.json"
+      },
+      "quote_count": 0,
+      "quoted_status_id_str": "1818590562926444876",
+      "quoted_status_permalink": {
+        "display": "x.com/machrilmachril\u2026",
+        "expanded": "https://twitter.com/machrilmachril1/status/1818590562926444876",
+        "url": "https://t.co/L4ZircdCIv"
+      },
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/machrilmachril1/status/1819200634148790442",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Thu Dec 22 00:51:16 +0000 2022",
+        "default_profile_image": false,
+        "description": "TriasPolitika Diabaikan.Putusan Pengadilan INKRACHT Tdk dlaksanakan.Eksekutif telah mdominasi Yudikatif, sblm nya Minta restu Legislatif utk ptong uang nasabah.",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 10106,
+        "followers_count": 255,
+        "friends_count": 1000,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "Denpasar, Bali",
+        "media_count": 704,
+        "name": "machril machril",
+        "normal_followers_count": 255,
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1605727475694125058/1692234920",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1605729525446295552/1yZgelFb_normal.jpg",
+        "screen_name": "machrilmachril1",
+        "statuses_count": 8764,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1605727475694125058",
+      "user_location": "Denpasar, Bali",
+      "views_count": 11
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1819199647728259256",
+      "created_at": "Fri Aug 02 02:32:49 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "211415705",
+            "indices": [
+              0,
+              7
+            ],
+            "name": "DPR RI",
+            "screen_name": "DPR_RI"
+          },
+          {
+            "id_str": "244817932",
+            "indices": [
+              8,
+              23
+            ],
+            "name": "Komisi Yudisial RI",
+            "screen_name": "KomisiYudisial"
+          },
+          {
+            "id_str": "705276546735407104",
+            "indices": [
+              24,
+              36
+            ],
+            "name": "Kejaksaan RI",
+            "screen_name": "KejaksaanRI"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "@DPR_RI @KomisiYudisial @KejaksaanRI sgr nonaktifkan Oknum Hakimx, &amp;apabila ada indikasi penyuapan/gratifikasi dlm kasus ini oleh pihak keluarga agar diusut,&amp;kpd pihak klrganya dlm halini ortunya yg mrpkn Ang Dewan agar dinonaktifkan krn bs sj pakai kuasa jbtnx Utk intervensi APH",
+      "id_str": "1819199647728259256",
+      "in_reply_to_screen_name": "DPR_RI",
+      "in_reply_to_user_id_str": "211415705",
+      "is_quote_status": true,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "quote_count": 0,
+      "quoted_status_id_str": "1818620087617941864",
+      "quoted_status_permalink": {
+        "display": "x.com/kegblgnunfaedh\u2026",
+        "expanded": "https://twitter.com/kegblgnunfaedh/status/1818620087617941864",
+        "url": "https://t.co/3H0JCreajE"
+      },
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/ModeonSuanggi/status/1819199647728259256",
+      "user": {
+        "can_dm": true,
+        "can_media_tag": true,
+        "created_at": "Sun Nov 05 10:58:22 +0000 2023",
+        "default_profile_image": false,
+        "description": "Kehidupan di dunia ini cuma ada dua masalah yaitu SALAH PAHAM & PAHAM SALAH. (Percaya pd Penyelenggaraan Ilahi)",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 407,
+        "followers_count": 361,
+        "friends_count": 2806,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "",
+        "media_count": 57,
+        "name": "Masteriusman",
+        "normal_followers_count": 361,
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1721119594914734080/1722137653",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1817403110245142528/kktSKdzb_normal.jpg",
+        "screen_name": "ModeonSuanggi",
+        "statuses_count": 5178,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1721119594914734080",
+      "user_location": "",
+      "views_count": 3
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1818979359681876097",
+      "created_at": "Fri Aug 02 02:26:56 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "17128975",
+            "indices": [
+              0,
+              13
+            ],
+            "name": "CNN Indonesia",
+            "screen_name": "CNNIndonesia"
+          },
+          {
+            "id_str": "260686783",
+            "indices": [
+              82,
+              93
+            ],
+            "name": "Sekretariat Kabinet",
+            "screen_name": "setkabgoid"
+          },
+          {
+            "id_str": "211415705",
+            "indices": [
+              94,
+              101
+            ],
+            "name": "DPR RI",
+            "screen_name": "DPR_RI"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "@CNNIndonesia Tidak mendorong tapi mendukung apa bedanya ?? itu merusak demokrasi @setkabgoid @DPR_RI",
+      "id_str": "1819198166513996081",
+      "in_reply_to_screen_name": "CNNIndonesia",
+      "in_reply_to_status_id_str": "1818979359681876097",
+      "in_reply_to_user_id_str": "17128975",
+      "is_quote_status": false,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/ubinhasnanto1/status/1819198166513996081",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Thu May 26 04:08:29 +0000 2016",
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 9780,
+        "followers_count": 164,
+        "friends_count": 197,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "",
+        "media_count": 690,
+        "name": "ubinhasnanto",
+        "normal_followers_count": 164,
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/735684003617873924/1464244736",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/964060170497138688/ykLwwsm4_normal.jpg",
+        "screen_name": "ubinhasnanto1",
+        "statuses_count": 9594,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "735684003617873924",
+      "user_location": "",
+      "views_count": 8
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1819197769598578888",
+      "created_at": "Fri Aug 02 02:25:21 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/9vromfuxfm",
+            "expanded_url": "https://twitter.com/kejaribatam/status/1819197769598578888/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "all": {
+                "tags": [
+                  {
+                    "name": "penkum kejati kepri",
+                    "screen_name": "kejati_kepri",
+                    "type": "user",
+                    "user_id": "1565174340114841600"
+                  }
+                ]
+              },
+              "large": {
+                "faces": [
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 846,
+                    "y": 300
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 193,
+                    "y": 328
+                  },
+                  {
+                    "h": 57,
+                    "w": 57,
+                    "x": 440,
+                    "y": 332
+                  },
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 643,
+                    "y": 345
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 634,
+                    "y": 225
+                  },
+                  {
+                    "h": 39,
+                    "w": 39,
+                    "x": 144,
+                    "y": 246
+                  },
+                  {
+                    "h": 42,
+                    "w": 42,
+                    "x": 330,
+                    "y": 249
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 482,
+                    "y": 258
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 846,
+                    "y": 300
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 193,
+                    "y": 328
+                  },
+                  {
+                    "h": 57,
+                    "w": 57,
+                    "x": 440,
+                    "y": 332
+                  },
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 643,
+                    "y": 345
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 25,
+                    "w": 25,
+                    "x": 359,
+                    "y": 127
+                  },
+                  {
+                    "h": 22,
+                    "w": 22,
+                    "x": 81,
+                    "y": 139
+                  },
+                  {
+                    "h": 24,
+                    "w": 24,
+                    "x": 186,
+                    "y": 140
+                  },
+                  {
+                    "h": 25,
+                    "w": 25,
+                    "x": 273,
+                    "y": 146
+                  }
+                ]
+              }
+            },
+            "id_str": "1819197736362954756",
+            "indices": [
+              278,
+              301
+            ],
+            "media_key": "3_1819197736362954756",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819197736362954756"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8Ws-Qb0AQFroH.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 717,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 883
+                },
+                {
+                  "h": 1281,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 319
+                },
+                {
+                  "h": 1460,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 140
+                },
+                {
+                  "h": 1600,
+                  "w": 800,
+                  "x": 280,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1600,
+              "width": 1281
+            },
+            "sizes": {
+              "large": {
+                "h": 1600,
+                "resize": "fit",
+                "w": 1281
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 961
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 544
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/9vRoMfUXFm"
+          }
+        ],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/9vRoMfUXFm",
+            "expanded_url": "https://twitter.com/kejaribatam/status/1819197769598578888/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "all": {
+                "tags": [
+                  {
+                    "name": "penkum kejati kepri",
+                    "screen_name": "kejati_kepri",
+                    "type": "user",
+                    "user_id": "1565174340114841600"
+                  }
+                ]
+              },
+              "large": {
+                "faces": [
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 846,
+                    "y": 300
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 193,
+                    "y": 328
+                  },
+                  {
+                    "h": 57,
+                    "w": 57,
+                    "x": 440,
+                    "y": 332
+                  },
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 643,
+                    "y": 345
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 634,
+                    "y": 225
+                  },
+                  {
+                    "h": 39,
+                    "w": 39,
+                    "x": 144,
+                    "y": 246
+                  },
+                  {
+                    "h": 42,
+                    "w": 42,
+                    "x": 330,
+                    "y": 249
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 482,
+                    "y": 258
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 846,
+                    "y": 300
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 193,
+                    "y": 328
+                  },
+                  {
+                    "h": 57,
+                    "w": 57,
+                    "x": 440,
+                    "y": 332
+                  },
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 643,
+                    "y": 345
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 25,
+                    "w": 25,
+                    "x": 359,
+                    "y": 127
+                  },
+                  {
+                    "h": 22,
+                    "w": 22,
+                    "x": 81,
+                    "y": 139
+                  },
+                  {
+                    "h": 24,
+                    "w": 24,
+                    "x": 186,
+                    "y": 140
+                  },
+                  {
+                    "h": 25,
+                    "w": 25,
+                    "x": 273,
+                    "y": 146
+                  }
+                ]
+              }
+            },
+            "id_str": "1819197736362954756",
+            "indices": [
+              278,
+              301
+            ],
+            "media_key": "3_1819197736362954756",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819197736362954756"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8Ws-Qb0AQFroH.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 717,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 883
+                },
+                {
+                  "h": 1281,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 319
+                },
+                {
+                  "h": 1460,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 140
+                },
+                {
+                  "h": 1600,
+                  "w": 800,
+                  "x": 280,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 1281,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1600,
+              "width": 1281
+            },
+            "sizes": {
+              "large": {
+                "h": 1600,
+                "resize": "fit",
+                "w": 1281
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 961
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 544
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/9vRoMfUXFm"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "Kepala KEJATI Kepri didampingi Wakil Kepala Kejaksaan Tinggi Beserta Para Asisten dan Para Kepala Kejari di Wilayah Kepri Mengikuti Rapat Pada Kunjungan Kerja Reses Komisi III DPR RI Dengan Kejaksaan Tinggi Kepulauan Riau Dan Tiga Lingkungan Peradilan Sewilayah Provinsi Kepri. https://t.co/9vRoMfUXFm",
+      "id_str": "1819197769598578888",
+      "is_quote_status": false,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/kejaribatam/status/1819197769598578888",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Thu May 09 03:52:48 +0000 2019",
+        "default_profile_image": false,
+        "description": "ini adalah akun twitter resmi Kejaksaan Negeri Batam\nhttps://t.co/1ZWr4BXeYb\u2026\nhttps://t.co/YGi96oxfWO\u2026",
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "display_url": "instagram.com/kejaksaanneger",
+                "expanded_url": "http://instagram.com/kejaksaanneger",
+                "indices": [
+                  53,
+                  76
+                ],
+                "url": "https://t.co/1ZWr4BXeYb"
+              },
+              {
+                "display_url": "facebook.com/kejaksaan.nege",
+                "expanded_url": "http://facebook.com/kejaksaan.nege",
+                "indices": [
+                  78,
+                  101
+                ],
+                "url": "https://t.co/YGi96oxfWO"
+              }
+            ]
+          },
+          "url": {
+            "urls": [
+              {
+                "display_url": "kejari-batam.kejaksaan.go.id",
+                "expanded_url": "https://kejari-batam.kejaksaan.go.id",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/R5uLrLwbyj"
+              }
+            ]
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 12,
+        "followers_count": 31,
+        "friends_count": 13,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "",
+        "media_count": 674,
+        "name": "Kejaksaan Negeri Batam",
+        "normal_followers_count": 31,
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1126334175617769472/1700709452",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1528604040111824896/y8HZyKpd_normal.jpg",
+        "screen_name": "kejaribatam",
+        "statuses_count": 1414,
+        "translator_type": "none",
+        "url": "https://t.co/R5uLrLwbyj",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1126334175617769472",
+      "user_location": "",
+      "views_count": 7
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1819195913489076568",
+      "created_at": "Fri Aug 02 02:17:59 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/e00l61h2lc",
+            "expanded_url": "https://twitter.com/aznilripos/status/1819195913489076568/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 282,
+                    "y": 89
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 102,
+                    "y": 103
+                  },
+                  {
+                    "h": 41,
+                    "w": 41,
+                    "x": 108,
+                    "y": 232
+                  },
+                  {
+                    "h": 99,
+                    "w": 99,
+                    "x": 84,
+                    "y": 110
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 282,
+                    "y": 89
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 102,
+                    "y": 103
+                  },
+                  {
+                    "h": 41,
+                    "w": 41,
+                    "x": 108,
+                    "y": 232
+                  },
+                  {
+                    "h": 99,
+                    "w": 99,
+                    "x": 84,
+                    "y": 110
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 282,
+                    "y": 89
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 102,
+                    "y": 103
+                  },
+                  {
+                    "h": 41,
+                    "w": 41,
+                    "x": 108,
+                    "y": 232
+                  },
+                  {
+                    "h": 99,
+                    "w": 99,
+                    "x": 84,
+                    "y": 110
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 273,
+                    "y": 86
+                  },
+                  {
+                    "h": 42,
+                    "w": 42,
+                    "x": 99,
+                    "y": 100
+                  },
+                  {
+                    "h": 39,
+                    "w": 39,
+                    "x": 104,
+                    "y": 225
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 81,
+                    "y": 106
+                  }
+                ]
+              }
+            },
+            "id_str": "1819195904328716291",
+            "indices": [
+              99,
+              122
+            ],
+            "media_key": "3_1819195904328716291",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819195904328716291"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8VCVZb0AMdWek.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 392,
+                  "w": 700,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 394,
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 346,
+                  "x": 124,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 197,
+                  "x": 199,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 700,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 394,
+              "width": 700
+            },
+            "sizes": {
+              "large": {
+                "h": 394,
+                "resize": "fit",
+                "w": 700
+              },
+              "medium": {
+                "h": 394,
+                "resize": "fit",
+                "w": 700
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/e00l61H2lC"
+          },
+          {
+            "display_url": "pic.x.com/e00l61h2lc",
+            "expanded_url": "https://twitter.com/aznilripos/status/1819195913489076568/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              }
+            },
+            "id_str": "1819195906539114496",
+            "indices": [
+              99,
+              122
+            ],
+            "media_key": "3_1819195906539114496",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819195906539114496"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8VCdob0AAQTx-.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 224,
+                  "w": 400,
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "h": 225,
+                  "w": 225,
+                  "x": 78,
+                  "y": 0
+                },
+                {
+                  "h": 225,
+                  "w": 197,
+                  "x": 92,
+                  "y": 0
+                },
+                {
+                  "h": 225,
+                  "w": 113,
+                  "x": 134,
+                  "y": 0
+                },
+                {
+                  "h": 225,
+                  "w": 400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 225,
+              "width": 400
+            },
+            "sizes": {
+              "large": {
+                "h": 225,
+                "resize": "fit",
+                "w": 400
+              },
+              "medium": {
+                "h": 225,
+                "resize": "fit",
+                "w": 400
+              },
+              "small": {
+                "h": 225,
+                "resize": "fit",
+                "w": 400
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/e00l61H2lC"
+          }
+        ],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [
+          {
+            "display_url": "detakindonesia.co.id/read/detail/11\u2026",
+            "expanded_url": "https://detakindonesia.co.id/read/detail/11450/bupati-karo-bersama-anggota-dpr-ri-tinjau-pengerjaan-pelebaran-jalan-kabanjahe--merek",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/Q9X03wPhdv"
+          }
+        ],
+        "user_mentions": []
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/e00l61H2lC",
+            "expanded_url": "https://twitter.com/aznilripos/status/1819195913489076568/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 282,
+                    "y": 89
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 102,
+                    "y": 103
+                  },
+                  {
+                    "h": 41,
+                    "w": 41,
+                    "x": 108,
+                    "y": 232
+                  },
+                  {
+                    "h": 99,
+                    "w": 99,
+                    "x": 84,
+                    "y": 110
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 282,
+                    "y": 89
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 102,
+                    "y": 103
+                  },
+                  {
+                    "h": 41,
+                    "w": 41,
+                    "x": 108,
+                    "y": 232
+                  },
+                  {
+                    "h": 99,
+                    "w": 99,
+                    "x": 84,
+                    "y": 110
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 282,
+                    "y": 89
+                  },
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 102,
+                    "y": 103
+                  },
+                  {
+                    "h": 41,
+                    "w": 41,
+                    "x": 108,
+                    "y": 232
+                  },
+                  {
+                    "h": 99,
+                    "w": 99,
+                    "x": 84,
+                    "y": 110
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 44,
+                    "w": 44,
+                    "x": 273,
+                    "y": 86
+                  },
+                  {
+                    "h": 42,
+                    "w": 42,
+                    "x": 99,
+                    "y": 100
+                  },
+                  {
+                    "h": 39,
+                    "w": 39,
+                    "x": 104,
+                    "y": 225
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 81,
+                    "y": 106
+                  }
+                ]
+              }
+            },
+            "id_str": "1819195904328716291",
+            "indices": [
+              99,
+              122
+            ],
+            "media_key": "3_1819195904328716291",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819195904328716291"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8VCVZb0AMdWek.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 392,
+                  "w": 700,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 394,
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 346,
+                  "x": 124,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 197,
+                  "x": 199,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 700,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 394,
+              "width": 700
+            },
+            "sizes": {
+              "large": {
+                "h": 394,
+                "resize": "fit",
+                "w": 700
+              },
+              "medium": {
+                "h": 394,
+                "resize": "fit",
+                "w": 700
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/e00l61H2lC"
+          },
+          {
+            "display_url": "pic.twitter.com/e00l61H2lC",
+            "expanded_url": "https://twitter.com/aznilripos/status/1819195913489076568/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 150,
+                    "y": 29
+                  },
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 250,
+                    "y": 49
+                  }
+                ]
+              }
+            },
+            "id_str": "1819195906539114496",
+            "indices": [
+              99,
+              122
+            ],
+            "media_key": "3_1819195906539114496",
+            "media_results": {
+              "result": {
+                "media_key": "3_1819195906539114496"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GT8VCdob0AAQTx-.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 224,
+                  "w": 400,
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "h": 225,
+                  "w": 225,
+                  "x": 78,
+                  "y": 0
+                },
+                {
+                  "h": 225,
+                  "w": 197,
+                  "x": 92,
+                  "y": 0
+                },
+                {
+                  "h": 225,
+                  "w": 113,
+                  "x": 134,
+                  "y": 0
+                },
+                {
+                  "h": 225,
+                  "w": 400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 225,
+              "width": 400
+            },
+            "sizes": {
+              "large": {
+                "h": 225,
+                "resize": "fit",
+                "w": 400
+              },
+              "medium": {
+                "h": 225,
+                "resize": "fit",
+                "w": 400
+              },
+              "small": {
+                "h": 225,
+                "resize": "fit",
+                "w": 400
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/e00l61H2lC"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "https://t.co/Q9X03wPhdv\nBupati Karo bersama Anggota DPR RI Tinjau Pengerjaan Jalan Kabanjahe-Merek https://t.co/e00l61H2lC",
+      "id_str": "1819195913489076568",
+      "is_quote_status": false,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/aznilripos/status/1819195913489076568",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Fri Jun 28 14:38:05 +0000 2013",
+        "default_profile_image": false,
+        "description": "Hidup sederhana",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 7,
+        "followers_count": 43,
+        "friends_count": 25,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "Pekan Baru, Riau",
+        "media_count": 633,
+        "name": "aznilfajri",
+        "normal_followers_count": 43,
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1553225370/1693290295",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1696405808932954112/0inyrTH4_normal.jpg",
+        "screen_name": "aznilripos",
+        "statuses_count": 4040,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1553225370",
+      "user_location": "Pekan Baru, Riau",
+      "views_count": 0
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1818796559968223384",
+      "created_at": "Fri Aug 02 02:17:31 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [
+          {
+            "display_url": "dpr.go.id/tentang/tugas-\u2026",
+            "expanded_url": "https://www.dpr.go.id/tentang/tugas-wewenang#:~:text=Ketiga%20fungsi%20legislasi%2C%20pengawasan%2C%20dan,dengan%20ketentuan%20peraturan%20perundang%2Dundangan",
+            "indices": [
+              64,
+              87
+            ],
+            "url": "https://t.co/OkTveamT8I"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "797761417894051840",
+            "indices": [
+              0,
+              12
+            ],
+            "name": "MarahIchsan\ud83c\uddee\ud83c\udde9",
+            "screen_name": "MarahIchsan"
+          },
+          {
+            "id_str": "211415705",
+            "indices": [
+              53,
+              60
+            ],
+            "name": "DPR RI",
+            "screen_name": "DPR_RI"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "@MarahIchsan Bagaimana dengan tugas pokok dan fungsi @DPR_RI ?\n\nhttps://t.co/OkTveamT8I.\n\n\"Manajemen adalah proses pengorganisasian, pengaturan, pengelolaan SDM, sampai dengan pengendalian agar bisa mencapai tujuan dari suatu kegiatan.\"\n\nSistem (=budaya) yang memang bobrok.",
+      "id_str": "1819195797315133448",
+      "in_reply_to_screen_name": "MarahIchsan",
+      "in_reply_to_status_id_str": "1818796559968223384",
+      "in_reply_to_user_id_str": "797761417894051840",
+      "is_quote_status": false,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/PedagangMikro/status/1819195797315133448",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Thu Jul 13 05:56:27 +0000 2023",
+        "default_profile_image": false,
+        "description": "Nggresula iku upaya.",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 4236,
+        "followers_count": 26,
+        "friends_count": 40,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "",
+        "media_count": 127,
+        "name": "ngesu.com",
+        "normal_followers_count": 26,
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1679368926592114693/1714712281",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1786258880483495936/NFhWKenP_normal.jpg",
+        "screen_name": "PedagangMikro",
+        "statuses_count": 2852,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1679368926592114693",
+      "user_location": "",
+      "views_count": 3
+    },
+    {
+      "bookmark_count": 0,
+      "bookmarked": false,
+      "conversation_id_str": "1819192432460026066",
+      "created_at": "Fri Aug 02 02:04:09 +0000 2024",
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/gpndwkwbhn",
+            "expanded_url": "https://twitter.com/akuria448927/status/1819192432460026066/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1819192371839750145",
+            "indices": [
+              238,
+              261
+            ],
+            "media_key": "7_1819192371839750145",
+            "media_results": {
+              "result": {
+                "media_key": "7_1819192371839750145"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1819192371839750145/pu/img/eQwIwdbKm92TCcvE.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 675
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 383
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/gPNdwKWbhN",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 15000,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/pl/FCsvA6KwHNH0a7x9.m3u8?tag=12"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/vid/avc1/320x568/uAxIQJD1HWFFtZbf.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/vid/avc1/480x852/bS3N91zRfy0CG17D.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/vid/avc1/720x1280/nAhg5e-P97iQ229e.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/gPNdwKWbhN",
+            "expanded_url": "https://twitter.com/akuria448927/status/1819192432460026066/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1819192371839750145",
+            "indices": [
+              238,
+              261
+            ],
+            "media_key": "7_1819192371839750145",
+            "media_results": {
+              "result": {
+                "media_key": "7_1819192371839750145"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1819192371839750145/pu/img/eQwIwdbKm92TCcvE.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 675
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 383
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/gPNdwKWbhN",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 15000,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/pl/FCsvA6KwHNH0a7x9.m3u8?tag=12"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/vid/avc1/320x568/uAxIQJD1HWFFtZbf.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/vid/avc1/480x852/bS3N91zRfy0CG17D.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1819192371839750145/pu/vid/avc1/720x1280/nAhg5e-P97iQ229e.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "full_text": "DPR RI menjelaskan kepada MSG bahwa Indonesia punya komitmen kuat untuk meningkatkan pembangunan di Papua\n#indonesia#thailand#myanmar#indonesiamaju  #gerakanindonesiabaru#papua#papuaindonesia    #papuabisa#merahputih#papuahits#papuabangg https://t.co/gPNdwKWbhN",
+      "id_str": "1819192432460026066",
+      "is_quote_status": false,
+      "lang": "in",
+      "metadata": {
+        "request_query": "dpr ri",
+        "request_url": "https://x.com/search?f=live&q=dpr+ri"
+      },
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "retweeted": false,
+      "truncated_full_text": null,
+      "url": "https://twitter.com/akuria448927/status/1819192432460026066",
+      "user": {
+        "can_dm": false,
+        "can_media_tag": true,
+        "created_at": "Thu Sep 28 04:32:49 +0000 2023",
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 15,
+        "followers_count": 28,
+        "friends_count": 47,
+        "has_custom_timelines": false,
+        "is_blue_verified": false,
+        "is_translator": false,
+        "listed_count": 0,
+        "location": "",
+        "media_count": 182,
+        "name": "Papuankri",
+        "normal_followers_count": 28,
+        "possibly_sensitive": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1727835907028582400/XKwOBaWL_normal.jpg",
+        "screen_name": "akuria448927",
+        "statuses_count": 182,
+        "translator_type": "none",
+        "verified": false,
+        "want_retweets": false,
+        "withheld_in_countries": []
+      },
+      "user_id_str": "1707251964562771968",
+      "user_location": "",
+      "views_count": 11
+    }
+  ]
+}
