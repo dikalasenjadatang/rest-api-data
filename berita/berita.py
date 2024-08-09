@@ -6,6 +6,7 @@ from flask import Flask, request, jsonify
 from flask_apscheduler import APScheduler
 from dotenv import load_dotenv
 import os
+from news import get_news_articles  # Import the function from news.py
 
 # Initialize the Event Registry API client
 # Load environment variables from .env file
@@ -69,10 +70,16 @@ def update_articles():
     if current_keyword:
         latest_articles = get_latest_articles(current_keyword)
 
+def update_news_articles():
+    global latest_articles
+    news_articles = get_news_articles()
+    latest_articles.extend(news_articles)
+
 @scheduler.task('interval', id='update_articles_job', seconds=60, misfire_grace_time=900)
 def scheduled_update():
     with app.app_context():
         update_articles()
+        update_news_articles()
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)
