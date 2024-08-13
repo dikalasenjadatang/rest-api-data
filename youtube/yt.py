@@ -16,6 +16,37 @@ api_key = os.getenv('YOUTUBE_API_KEY')
 youtube = build('youtube', 'v3', developerKey=api_key)
 latest_results = {}
 
+def get_recent_comments(video_id, max_results=5):
+    two_months_ago = datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=60)
+    comments = []
+    
+    try:
+        comments_response = youtube.commentThreads().list(
+            part='snippet',
+            videoId=video_id,
+            maxResults=max_results,
+            order='time'
+        ).execute()
+        
+        for comment in comments_response.get('items', []):
+            comment_snippet = comment['snippet']['topLevelComment']['snippet']
+            published_at = datetime.datetime.fromisoformat(comment_snippet['publishedAt'].replace('Z', '+00:00'))
+            
+            if published_at >= two_months_ago:
+                comments.append({
+                    'text': comment_snippet['textDisplay'],
+                    'author': comment_snippet['authorDisplayName'],
+                    'author_profile_image': comment_snippet['authorProfileImageUrl'],
+                    'published_at': comment_snippet['publishedAt']
+                })
+            
+            if len(comments) >= max_results:
+                break
+    except Exception as e:
+        print(f"Error fetching comments for video {video_id}: {str(e)}")
+    
+    return comments
+
 def update_search():
     global latest_results
     
@@ -58,17 +89,7 @@ def update_search():
                 channel_info = channel_response['items'][0]['snippet']
 
                 # Fetch video comments
-                comments_response = youtube.commentThreads().list(
-                    part='snippet',
-                    videoId=video_id,
-                    maxResults=5
-                ).execute()
-                comments = [{
-                    'text': comment['snippet']['topLevelComment']['snippet']['textDisplay'],
-                    'author': comment['snippet']['topLevelComment']['snippet']['authorDisplayName'],
-                    'author_profile_image': comment['snippet']['topLevelComment']['snippet']['authorProfileImageUrl'],
-                    'published_at': comment['snippet']['topLevelComment']['snippet']['publishedAt']
-                } for comment in comments_response.get('items', [])]
+                comments = get_recent_comments(video_id)
 
                 video_data = {
                     'title': snippet['title'],
@@ -160,17 +181,7 @@ def youtube_search():
             channel_info = channel_response['items'][0]['snippet']
 
             # Fetch video comments
-            comments_response = youtube.commentThreads().list(
-                part='snippet',
-                videoId=video_id,
-                maxResults=5
-            ).execute()
-            comments = [{
-                'text': comment['snippet']['topLevelComment']['snippet']['textDisplay'],
-                'author': comment['snippet']['topLevelComment']['snippet']['authorDisplayName'],
-                'author_profile_image': comment['snippet']['topLevelComment']['snippet']['authorProfileImageUrl'],
-                'published_at': comment['snippet']['topLevelComment']['snippet']['publishedAt']
-            } for comment in comments_response.get('items', [])]
+            comments = get_recent_comments(video_id)
 
             video_data = {
                 'title': snippet['title'],
