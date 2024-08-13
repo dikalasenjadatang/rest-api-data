@@ -1,30 +1,33 @@
-import eventregistry
-from eventregistry import *
 import datetime
 import json
+import re
+import os
 from flask import Flask, request, jsonify
 from flask_apscheduler import APScheduler
+from flask_caching import Cache
 from dotenv import load_dotenv
-import os
-from news import get_latest_articles  # Import the function from news.py
-import re
+from eventregistry import EventRegistry, QueryArticlesIter
 
-# Initialize the Event Registry API client
 # Load environment variables from .env file
 load_dotenv()
 
 # Initialize the Event Registry API client
 er = EventRegistry(apiKey=os.getenv("EVENT_REGISTRY_API_KEY"))
 app = Flask(__name__)
+
+# Configure caching
+app.config['CACHE_TYPE'] = 'simple'
+app.config['CACHE_DEFAULT_TIMEOUT'] = 600  # Cache timeout in seconds (10 minutes)
+cache = Cache(app)
+
 scheduler = APScheduler()
 scheduler.init_app(app)
 scheduler.start()
 
-# Global variable to store the latest articles
-latest_articles = []
+# Global variable to store the current keyword
 current_keyword = ""
 
-# Add this list of Indonesian provinces
+# List of Indonesian provinces
 indonesian_provinces = [
     "Aceh", "Sumatera Utara", "Sumatera Barat", "Riau", "Kepulauan Riau", "Jambi", "Sumatera Selatan",
     "Bangka Belitung", "Bengkulu", "Lampung", "DKI Jakarta", "Banten", "Jawa Barat", "Jawa Tengah",
@@ -52,7 +55,7 @@ def get_latest_articles(keyword):
     q = QueryArticlesIter(
         keywords=keyword,
         lang=["eng", "ind"],
-        dateStart=datetime.datetime.now() - datetime.timedelta(days=30),  # Changed to last hour
+        dateStart=datetime.datetime.now() - datetime.timedelta(days=30),
         dateEnd=datetime.datetime.now(),
         dataType=["news", "blog"],
         sourceLocationUri=er.getLocationUri("Indonesia"),
@@ -74,36 +77,31 @@ def get_latest_articles(keyword):
             "penulis": article.get("authors", []),
             "editor": article.get("editors", []),
             "thumbnail": article.get("image", None),
-            "provinsi": provinces  # Add the extracted provinces
+            "provinsi": provinces
         })
     
     return articles
 
 @app.route('/search', methods=['GET'])
+@cache.cached(query_string=True)  # Cache based on query string
 def search_articles():
     global current_keyword
     keyword = request.args.get('keyword', type=str)
     current_keyword = keyword
-    latest_articles = get_latest_articles(keyword)
-    return jsonify({"articles": latest_articles, "count": len(latest_articles)})
+    articles = get_latest_articles(keyword)
+    return jsonify({"articles": articles, "count": len(articles)})
 
 def update_articles():
-    global latest_articles, current_keyword
+    global current_keyword
     if current_keyword:
-        latest_articles = get_latest_articles(current_keyword)
-
-def update_news_articles():
-    global latest_articles
-    news_articles = get_latest_articles()
-    latest_articles.extend(news_articles)
+        cache.set(f'articles_{current_keyword}', get_latest_articles(current_keyword))
 
 @scheduler.task('interval', id='update_articles_job', seconds=60, misfire_grace_time=900)
 def scheduled_update():
     with app.app_context():
-        update_articles()
-        update_news_articles()
+        if current_keyword:
+            update_articles()
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False)
-
-# Remove the print statement as it's not needed in a web application
+        
