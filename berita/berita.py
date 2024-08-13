@@ -6,7 +6,8 @@ from flask import Flask, request, jsonify
 from flask_apscheduler import APScheduler
 from dotenv import load_dotenv
 import os
-from news import get_news_articles  # Import the function from news.py
+from news import get_latest_articles  # Import the function from news.py
+import re
 
 # Initialize the Event Registry API client
 # Load environment variables from .env file
@@ -22,6 +23,23 @@ scheduler.start()
 # Global variable to store the latest articles
 latest_articles = []
 current_keyword = ""
+
+# Add this list of Indonesian provinces
+indonesian_provinces = [
+    "Aceh", "Sumatera Utara", "Sumatera Barat", "Riau", "Kepulauan Riau", "Jambi", "Sumatera Selatan",
+    "Bangka Belitung", "Bengkulu", "Lampung", "DKI Jakarta", "Banten", "Jawa Barat", "Jawa Tengah",
+    "DI Yogyakarta", "Jawa Timur", "Bali", "Nusa Tenggara Barat", "Nusa Tenggara Timur", "Kalimantan Barat",
+    "Kalimantan Tengah", "Kalimantan Selatan", "Kalimantan Timur", "Kalimantan Utara", "Sulawesi Utara",
+    "Gorontalo", "Sulawesi Tengah", "Sulawesi Barat", "Sulawesi Selatan", "Sulawesi Tenggara", "Maluku",
+    "Maluku Utara", "Papua Barat", "Papua"
+]
+
+def extract_provinces(text):
+    found_provinces = []
+    for province in indonesian_provinces:
+        if re.search(r'\b' + re.escape(province) + r'\b', text, re.IGNORECASE):
+            found_provinces.append(province)
+    return found_provinces
 
 def get_latest_articles(keyword):
     allowed_sources = [
@@ -43,16 +61,20 @@ def get_latest_articles(keyword):
 
     articles = []
     for article in q.execQuery(er, sortBy="date", maxItems=500):
+        content = article.get("body", "")
+        provinces = extract_provinces(content)
+        
         articles.append({
             "judul": article["title"],
             "tanggal": article["dateTime"],
             "sumber": article["source"]["title"],
             "url": article["url"],
-            "ringkasan": article.get("body", "")[:200] + "..." if article.get("body") else "Ringkasan tidak tersedia",
-            "isi": article.get("body", "Konten tidak tersedia"),  # Full article content
-            "penulis": article.get("authors", []),  # Author information
-            "editor": article.get("editors", []),  # Editor information
-            "thumbnail": article.get("image", None)  # Thumbnail URL
+            "ringkasan": content[:200] + "..." if content else "Ringkasan tidak tersedia",
+            "isi": content,
+            "penulis": article.get("authors", []),
+            "editor": article.get("editors", []),
+            "thumbnail": article.get("image", None),
+            "provinsi": provinces  # Add the extracted provinces
         })
     
     return articles
@@ -72,7 +94,7 @@ def update_articles():
 
 def update_news_articles():
     global latest_articles
-    news_articles = get_news_articles()
+    news_articles = get_latest_articles()
     latest_articles.extend(news_articles)
 
 @scheduler.task('interval', id='update_articles_job', seconds=60, misfire_grace_time=900)
