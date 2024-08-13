@@ -43,12 +43,11 @@ def update_search():
 
                 # Fetch video details
                 video_response = youtube.videos().list(
-                    part='statistics,snippet',
+                    part='statistics',
                     id=video_id
                 ).execute()
                 video_details = video_response['items'][0]
                 statistics = video_details['statistics']
-                video_snippet = video_details['snippet']
 
                 # Fetch channel details
                 channel_id = snippet['channelId']
@@ -68,21 +67,19 @@ def update_search():
                     'text': comment['snippet']['topLevelComment']['snippet']['textDisplay'],
                     'author': comment['snippet']['topLevelComment']['snippet']['authorDisplayName'],
                     'author_profile_image': comment['snippet']['topLevelComment']['snippet']['authorProfileImageUrl'],
-                    'published_at': comment['snippet']['topLevelComment']['snippet']['publishedAt'],
-                    'likes': comment['snippet']['topLevelComment']['snippet']['likeCount']
+                    'published_at': comment['snippet']['topLevelComment']['snippet']['publishedAt']
                 } for comment in comments_response.get('items', [])]
 
                 video_data = {
                     'title': snippet['title'],
                     'channel': snippet['channelTitle'],
                     'channel_location': channel_info.get('country', 'Not specified'),
-                    'published_at': video_snippet['publishedAt'],
+                    'published_at': snippet['publishedAt'],
                     'thumbnail': snippet['thumbnails']['default']['url'],
-                    'view_count': int(statistics.get('viewCount', 0)),
-                    'likes': int(statistics.get('likeCount', 0)),
-                    'comment_count': int(statistics.get('commentCount', 0)),
-                    'comments': comments,
-                    'video_url': f"https://www.youtube.com/watch?v={video_id}"
+                    'view_count': statistics.get('viewCount', 0),
+                    'likes': statistics.get('likeCount', 0),
+                    'comment_count': statistics.get('commentCount', 0),
+                    'comments': comments  # Add comments to video data
                 }
                 videos.append(video_data)
 
@@ -148,12 +145,11 @@ def youtube_search():
 
             # Fetch video details
             video_response = youtube.videos().list(
-                part='statistics,snippet',
+                part='statistics',
                 id=video_id
             ).execute()
             video_details = video_response['items'][0]
             statistics = video_details['statistics']
-            video_snippet = video_details['snippet']
 
             # Fetch channel details
             channel_id = snippet['channelId']
@@ -173,21 +169,19 @@ def youtube_search():
                 'text': comment['snippet']['topLevelComment']['snippet']['textDisplay'],
                 'author': comment['snippet']['topLevelComment']['snippet']['authorDisplayName'],
                 'author_profile_image': comment['snippet']['topLevelComment']['snippet']['authorProfileImageUrl'],
-                'published_at': comment['snippet']['topLevelComment']['snippet']['publishedAt'],
-                'likes': comment['snippet']['topLevelComment']['snippet']['likeCount']
+                'published_at': comment['snippet']['topLevelComment']['snippet']['publishedAt']
             } for comment in comments_response.get('items', [])]
 
             video_data = {
                 'title': snippet['title'],
                 'channel': snippet['channelTitle'],
                 'channel_location': channel_info.get('country', 'Not specified'),
-                'published_at': video_snippet['publishedAt'],
+                'published_at': snippet['publishedAt'],
                 'thumbnail': snippet['thumbnails']['default']['url'],
-                'view_count': int(statistics.get('viewCount', 0)),
-                'likes': int(statistics.get('likeCount', 0)),
-                'comment_count': int(statistics.get('commentCount', 0)),
-                'comments': comments,
-                'video_url': f"https://www.youtube.com/watch?v={video_id}"
+                'view_count': statistics.get('viewCount', 0),
+                'likes': statistics.get('likeCount', 0),
+                'comment_count': statistics.get('commentCount', 0),
+                'comments': comments  # Add comments to video data
             }
             videos.append(video_data)
 

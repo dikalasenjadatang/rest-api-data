@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Location Search</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #map { height: 400px; width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>YouTube Location Search</h1>
+    <form id="searchForm">
+        <input type="text" id="query" placeholder="Search query" required>
+        <!-- <input type="text" id="location" placeholder="Location">
+        <input type="number" id="radius" placeholder="Radius (km)" value="100" required>
+        <input type="number" id="max_results" placeholder="Max results" value="10" required> -->
+        <button type="submit">Search</button>
+    </form>
+    <div id="map"></div>
+    <div id="results"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#searchForm').submit(function(e) {
+                e.preventDefault();
+                $.get('/search', {
+                    q: $('#query').val(),
+                    location: $('#location').val(),
+                    radius: $('#radius').val(),
+                    max_results: $('#max_results').val()
+                }, function(data) {
+                    $('#map').html(data.map_html);
+                    let resultsHtml = '<h2>Search Results</h2>';
+                    data.videos.forEach(function(video) {
+                        resultsHtml += `
+                            <div>
+                                <h3><a href="${video.video_url}" target="_blank">${video.title}</a></h3>
+                                <p>${video.description}</p>
+                                <p>Distance: ${video.distance ? video.distance + ' km' : 'N/A'}</p>
+                            </div>
+                        `;
+                    });
+                    $('#results').html(resultsHtml);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
