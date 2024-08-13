@@ -80,7 +80,8 @@ def trending_news():
                 news = future.result()
                 trending_news.append({
                     "trend": trend,
-                    "news": news
+                    "news": news,
+                    "url": f"https://trends.google.com/trends/explore?geo=ID&q={trend}"  # Added URL
                 })
             except Exception as exc:
                 print(f'{trend} generated an exception: {exc}')
