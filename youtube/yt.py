@@ -17,7 +17,7 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 latest_results = {}
 
 def get_recent_comments(video_id, max_results=5):
-    two_months_ago = datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=60)
+    start_of_2023 = datetime.datetime(2023, 1, 1, tzinfo=datetime.UTC)
     comments = []
     
     try:
@@ -32,7 +32,7 @@ def get_recent_comments(video_id, max_results=5):
             comment_snippet = comment['snippet']['topLevelComment']['snippet']
             published_at = datetime.datetime.fromisoformat(comment_snippet['publishedAt'].replace('Z', '+00:00'))
             
-            if published_at >= two_months_ago:
+            if published_at >= start_of_2023:
                 comments.append({
                     'text': comment_snippet['textDisplay'],
                     'author': comment_snippet['authorDisplayName'],
@@ -58,7 +58,7 @@ def update_search():
         search_params = {
             'part': 'id,snippet',
             'type': 'video',
-            'maxResults': 20,
+            'maxResults': 200,
             'q': keyword,
             'order': 'date',
             'publishedAfter': one_minute_ago.replace(microsecond=0).isoformat() + 'Z'
@@ -141,7 +141,7 @@ def youtube_search():
         search_params = {
             'part': 'id,snippet',
             'type': 'video',
-            'maxResults': 20,
+            'maxResults': 200,
             'q': keyword
         }
 
